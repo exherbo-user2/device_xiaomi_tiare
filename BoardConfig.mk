@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/xiaomi/mi8937
+LOCAL_PATH := device/xiaomi/tiare
 
 # Architecture
 TARGET_ARCH := arm64
@@ -79,9 +79,7 @@ TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/twrp.fstab
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
-TW_USE_TOOLBOX := true
 TW_HAS_EDL_MODE := true
-TW_EXTRA_LANGUAGES := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
@@ -91,8 +89,3 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
-
-# OrangeFox
-OF_ALLOW_DISABLE_NAVBAR := 1
-OF_NO_TREBLE_COMPATIBILITY_CHECK := 1
-OF_USE_TWRP_SAR_DETECT := 1
