@@ -89,3 +89,17 @@ TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
+
+#shrp flags
+SHRP_PATH := device/xiaomi/tiare
+SHRP_MAINTAINER := TechyMinati
+SHRP_DEVICE_CODE := tiare
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /sdcard1
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb-otg
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_DARK := true
+SHRP_LITE := true
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A/B
