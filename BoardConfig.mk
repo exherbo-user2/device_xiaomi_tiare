@@ -92,7 +92,7 @@ TW_INCLUDE_FUSE_NTFS := true
 
 #shrp flags
 SHRP_PATH := device/xiaomi/tiare
-SHRP_MAINTAINER := TechyMinati
+SHRP_MAINTAINER := ctavropoholb
 SHRP_DEVICE_CODE := tiare
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /sdcard1
@@ -105,4 +105,4 @@ SHRP_REC_TYPE := Treble
 SHRP_DEVICE_TYPE := A/B
 
 # SHRP OFFICIAL
-SHRP_OFFICIAL := true
+#SHRP_OFFICIAL := true
